@@ -1,0 +1,87 @@
+.panel {
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    border: 8px solid burlywood;
+    z-index: 1;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    top: 3%;
+    width: 300px;
+    height: 70px;
+
+}
+
+.header-text {
+    font-size: 22px;
+    font-family: cambria;
+    font-weight: bold;
+    color: rgb(36, 34, 34);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 20px;
+    width: 500px;
+    top: 11%;
+
+    position: absolute;
+    background-color: bisque;
+    border: 8px solid burlywood;
+    border-radius: 8%;
+    box-shadow: 7px 6px rgba(128, 128, 128, 0.659);
+}
+
+.gameCircle {
+    background-color: color;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+.player_1 {
+    background-color: red;
+}
+
+.player_2 {
+    background-color: blue;
+}
+
+.player_0 {
+    background-color: white;
+}
+
+.footer {
+    top: 670px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+}
+
+.footer button {
+    font-size: 20px;
+    background-color: transparent;
+    border: rgb(141, 97, 40) solid 4px;
+    margin-top: 2.5%;
+    width: 75%;
+    height: 75%;
+    border-radius: 3px;
+    font-weight: 550;
+    background-color: rgb(70, 158, 221);
+}
+
+.footer button:hover {
+    background-color: chocolate;
+}
