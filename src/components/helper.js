@@ -12,7 +12,7 @@ export const isWinner = (gameBoard, currentMove, currentPlayer) => {
         [1, 5, 9, 13],
         [2, 6, 10, 14],
         [3, 7, 11, 15],
-        [0, 5, 10, 16],
+        [0, 5, 10, 15],
         [3, 6, 9, 12],
     ]
 
